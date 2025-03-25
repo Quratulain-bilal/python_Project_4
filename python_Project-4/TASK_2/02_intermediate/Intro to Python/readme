@@ -1,0 +1,89 @@
+🌍🚀 Planetary Weight Calculator 🌌
+📜 Description
+Ever wondered how much you'd weigh on different planets? This Python program helps you calculate your weight on Mercury, Venus, Mars, Jupiter, Saturn, Uranus, and Neptune based on Earth's gravity. Just enter your weight and choose a planet!
+
+⚡ How It Works
+1️⃣ Run the program in Python.
+2️⃣ Enter your weight (in kg).
+3️⃣ Choose a planet from the list.
+4️⃣ Get your weight on that planet! 🎉
+
+🛠 How to Run the Program
+✅ Step 1: Install Python
+Make sure Python is installed on your system. If not, download it here.
+
+✅ Step 2: Save the Script
+Save the following code as planetary_weight.py:
+
+python
+Copy
+Edit
+# Planetary Weight Calculator 🌍🚀
+# Enter your weight and get your weight on other planets! 🌌
+
+# Gravity constants relative to Earth's gravity 🌎
+PLANET_GRAVITY = {
+    "Mercury": 0.376,
+    "Venus": 0.889,
+    "Mars": 0.378,
+    "Jupiter": 2.36,
+    "Saturn": 1.081,
+    "Uranus": 0.815,
+    "Neptune": 1.14,
+    "Earth": 1.0
+}
+
+def main():
+    # Get user input 📩
+    earth_weight = float(input("Enter your weight on Earth (kg): "))
+    planet = input("Enter a planet name (Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune): ")
+
+    # Check if planet exists in dictionary
+    if planet in PLANET_GRAVITY:
+        # Calculate equivalent weight on chosen planet
+        planetary_weight = round(earth_weight * PLANET_GRAVITY[planet], 2)
+        print(f"✨ Your weight on {planet}: {planetary_weight} kg ✨")
+    else:
+        print("❌ Invalid planet name! Please enter a valid planet.")
+
+if __name__ == "__main__":
+    main()
+✅ Step 3: Run the Program
+Open Terminal (Mac/Linux) or Command Prompt (Windows) and run:
+
+nginx
+Copy
+Edit
+python planetary_weight.py
+🎯 Example Usage
+📌 Example 1
+nginx
+Copy
+Edit
+Enter your weight on Earth (kg): 120
+Enter a planet name (Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune): Mars
+✨ Your weight on Mars: 45.36 kg ✨
+📌 Example 2
+nginx
+Copy
+Edit
+Enter your weight on Earth (kg): 150
+Enter a planet name (Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune): Jupiter
+✨ Your weight on Jupiter: 354.0 kg ✨
+🔥 Features
+✅ Simple & easy-to-use interface 🖥
+✅ Supports 7 planets 🌎
+✅ Accurate weight conversion ⚖
+✅ Error handling for incorrect inputs ❌
+
+💡 Notes
+The program only accepts planets with the first letter capitalized (e.g., Mars instead of mars).
+
+We assume input weight is in kilograms (kg).
+
+📢 Want to Contribute?
+Feel free to improve the program, add new planets, or enhance the UI! 🚀
+
+Made with ❤️ for space enthusiasts! 🌌✨
+
+Let me know if you need more modifications! 😊🚀

@@ -1,0 +1,47 @@
+# 🌍 Country Information Card
+
+A simple Streamlit web app that displays key facts about any country using the [RestCountries](https://restcountries.com/) API.
+
+## Features
+- Search any country by name
+- Displays flag, population, capital, region, languages, and currency
+- Expandable section with additional details (area, timezones, borders, etc.)
+- Mobile-responsive design
+- No API key required
+
+## How to Run
+1. Install requirements:
+```bash
+pip install streamlit requests pandas
+Run the app:
+
+bash
+Copy
+streamlit run country_app.py
+Screenshot
+App Screenshot
+
+Built With
+Python 3
+
+Streamlit
+
+RestCountries API
+
+Customization
+Edit country_app.py to:
+
+Change the layout/style
+
+Add more country data points
+
+Modify the visual presentation
+
+Example Search Terms
+"France"
+
+"Japan"
+
+"Brazil,BR"
+
+"United States of America"

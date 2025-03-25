@@ -1,0 +1,63 @@
+# 📁 Bulk File Renamer
+
+A simple Python script to rename all files in a folder with sequential numbering.
+
+
+## 🛠️ What It Does
+- Renames all files in a folder with a custom prefix
+- Adds automatic numbering (1, 2, 3...)
+- Preserves original file extensions (.jpg, .png, etc.)
+
+## 🚀 How to Use
+1. **Edit the script**:
+   ```python
+   folder = "C:/Users/YourName/Pictures"  # ← Change to your folder path
+   prefix = "vacation"                   # ← Change to your desired prefix
+Run the script:
+
+bash
+Copy
+python rename_files.py
+📝 Example
+Before:
+
+Copy
+IMG_1234.jpg
+DSC_5678.png
+Screenshot.png
+After (with prefix="trip"):
+
+Copy
+trip_1.jpg
+trip_2.png
+trip_3.png
+⚠️ Important Notes
+Works with ALL file types (images, documents, etc.)
+
+Creates permanent changes - backup files first!
+
+Will overwrite files if names conflict
+
+💡 Customization Options
+Start numbering from a different number:
+
+python
+Copy
+# Change i+1 to i+10 to start from 10
+new_name = f"{prefix}_{i+10}{ext}"
+Add date to filenames:
+
+python
+Copy
+from datetime import datetime
+date = datetime.now().strftime("%Y%m%d")
+new_name = f"{date}_{prefix}_{i+1}{ext}"
+❓ FAQ
+Q: Can I undo the renaming?
+A: The script doesn't create backups. You'll need to manually rename files back.
+
+Q: Does it work with subfolders?
+A: No, it only processes files in the specified folder.
+
+📜 License
+This project is MIT licensed.
