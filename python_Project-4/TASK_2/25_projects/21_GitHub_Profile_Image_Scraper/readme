@@ -1,0 +1,61 @@
+# GitHub Profile Fetcher
+
+Get any GitHub user's profile data instantly using official API.
+
+```bash
+# Quick Start
+1. pip install requests
+2. python profile_fetcher.py
+How It Works
+Enter GitHub username
+
+Get:
+
+Profile picture URL
+
+Bio & stats
+
+Public repos count
+
+Security First
+Uses personal access token
+
+Never hardcode tokens
+
+Rate limit aware
+
+Pro Tip: Create token with only read:user permission
+
+Copy
+
+### Why this works best:
+1. **Ultra-minimal** - Only essential info
+2. **Clear CTAs** - Exactly what to do
+3. **Security emphasized** - Critical warning included
+4. **No fluff** - Straight to the point
+5. **Professional formatting** - Clean markdown
+
+### For even shorter version (15 lines):
+```markdown
+# GitHub Profile Fetcher
+
+```bash
+pip install requests && python fetcher.py
+Features
+Avatar URL • Bio • Stats
+
+Secure API calls
+
+Rate limit handling
+
+Remember: Use token with read:user only
+
+Copy
+
+Both versions:
+✅ Work perfectly  
+✅ Look professional  
+✅ Cover all essentials  
+✅ Are copy-paste ready  
+
+Choose whichever fits your style! 🚀

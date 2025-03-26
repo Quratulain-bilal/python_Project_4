@@ -1,0 +1,95 @@
+
+README File for Photo Manipulation Project
+Photo Manipulation in Python
+Welcome to the Photo Manipulation in Python project! This project allows you to apply filters and adjust the brightness, contrast, and blur of images. It is built using the Pillow library , which makes image manipulation simple and efficient. Follow the instructions below to get started.
+
+Table of Contents
+Introduction
+Features
+How It Works
+Installation
+Usage
+Interactive Mode
+Sample Input and Output
+Contributing
+License
+Introduction
+This project demonstrates basic image manipulation techniques such as adjusting brightness, contrast, and applying a blur effect. Using Python's Pillow library , you can easily modify images with just a few lines of code. The program also supports an interactive mode where users can customize these adjustments dynamically.
+
+Features
+Brightness Adjustment : Make images brighter or darker.
+Contrast Adjustment : Increase or decrease the contrast of an image.
+Blur Effect : Apply Gaussian blur to soften the image.
+Interactive Mode : Customize brightness, contrast, and blur interactively.
+Easy to Use : Minimal setup required—just install Pillow and run the script.
+How It Works
+The program uses the Pillow library to:
+
+Open an image file.
+Adjust brightness, contrast, and blur based on user-defined parameters.
+Save the modified image to a new file.
+Installation
+Install Pillow :
+Run the following command to install the Pillow library:
+bash
+Copy
+1
+pip install pillow
+Download Starter Files :
+Download sample images (e.g., example.jpg) and place them in the same folder as the script.
+Alternatively, use your own images.
+Usage
+Step 1: Run the Script
+Run the script using Python:
+
+bash
+Copy
+1
+python photo_manipulation.py
+Step 2: Modify Parameters
+Edit the script to adjust brightness, contrast, and blur values:
+
+Brightness : 1.0 = no change, <1.0 = darker, >1.0 = brighter.
+Contrast : 1.0 = no change, <1.0 = lower contrast, >1.0 = higher contrast.
+Blur : 0 = no blur, higher values = more blur.
+Example:
+
+python
+Copy
+1
+2
+3
+brightness_level = 1.5  # Brighter
+contrast_level = 1.2    # Higher contrast
+blur_amount = 2.0       # Slight blur
+Step 3: Save the Output
+The modified image will be saved as output.jpg.
+
+Interactive Mode
+For a more dynamic experience, use the interactive version of the script:
+
+Run the script.
+Enter the input image file name (e.g., example.jpg).
+Provide values for brightness, contrast, and blur when prompted.
+The program will generate the modified image and save it to the specified output file.
+Sample Input and Output
+Input
+Original Image: example.jpg
+Brightness: 1.5
+Contrast: 1.2
+Blur: 2.0
+Output
+Modified Image: output.jpg (brighter, higher contrast, and slightly blurred)
+Contributing
+We welcome contributions to improve this project! Here's how you can contribute:
+
+Fork the repository.
+Create a new branch for your feature/fix.
+Submit a pull request with a detailed description of your changes.
+License
+This project is licensed under the MIT License . Feel free to use, modify, and distribute the code as per the license terms.
+
+Credits
+Pillow Library : Used for image manipulation.
+
+anipulation! 🎨📸

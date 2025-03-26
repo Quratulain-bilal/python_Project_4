@@ -1,0 +1,153 @@
+
+
+# **Interactive Sudoku Solver**
+
+Welcome to the **Interactive Sudoku Solver**! This project is designed to solve Sudoku puzzles using the **backtracking algorithm**. The solver is implemented in Python and hosted on **Google Colab**, making it easy to use without any installation. You can input your Sudoku puzzle, and the program will solve it interactively.
+
+---
+
+## **Table of Contents**
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [How It Works](#how-it-works)
+4. [How to Use](#how-to-use)
+5. [Code Explanation](#code-explanation)
+6. [Running on Google Colab](#running-on-google-colab)
+7. [Contributing](#contributing)
+8. [License](#license)
+
+---
+
+## **Introduction**
+Sudoku is a popular number-placement puzzle where the objective is to fill a 9x9 grid with digits so that each column, row, and 3x3 subgrid contains all digits from 1 to 9. This project uses **backtracking**, a recursive algorithm, to solve Sudoku puzzles efficiently. The solver is hosted on **Google Colab**, allowing users to interact with it through an intuitive interface.
+
+---
+
+## **Features**
+- **Interactive Input**: Input your Sudoku puzzle using a 9x9 grid.
+- **Backtracking Algorithm**: Solves puzzles using a systematic trial-and-error approach.
+- **User-Friendly Interface**: Powered by `ipywidgets` for an interactive experience.
+- **Error Handling**: Detects unsolvable puzzles and informs the user.
+- **Cloud-Based**: No installation required—run directly on Google Colab.
+
+---
+
+## **How It Works**
+1. **Input Grid**: You provide a 9x9 Sudoku grid where empty cells are represented by `0`.
+2. **Validation**: The solver checks if placing a number in a cell violates Sudoku rules (row, column, or subgrid constraints).
+3. **Backtracking**: The solver tries numbers from 1 to 9 in empty cells. If a number doesn't work, it backtracks and tries another.
+4. **Solution**: Once the grid is filled correctly, the solution is displayed.
+
+---
+
+## **How to Use**
+Follow these steps to use the Sudoku Solver:
+
+### **Step 1: Open Google Colab**
+- Go to [Google Colab](https://colab.research.google.com/) and create a new notebook.
+- Copy and paste the provided code into a code cell.
+
+### **Step 2: Run the Code**
+- Press `Shift + Enter` to run the code.
+- An interactive 9x9 grid will appear where you can input your Sudoku puzzle.
+
+### **Step 3: Input Your Puzzle**
+- Replace `0` with the numbers from your Sudoku puzzle. Leave `0` for empty cells.
+
+### **Step 4: Solve the Puzzle**
+- Click the "Solve Sudoku" button.
+- The solver will display the solved grid if a solution exists. If not, it will inform you that no solution exists.
+
+---
+
+## **Code Explanation**
+The code is divided into the following sections:
+
+1. **Grid Input**:
+   - Uses `ipywidgets.Text` to create an interactive 9x9 grid.
+   - Converts the grid into a 2D list for processing.
+
+2. **Backtracking Algorithm**:
+   - Implements the recursive backtracking technique to solve the puzzle.
+   - Checks validity using Sudoku rules (row, column, and subgrid constraints).
+
+3. **Output Display**:
+   - Displays the original and solved grids in a clean format.
+
+4. **Interactive Widgets**:
+   - Adds a "Solve Sudoku" button for user interaction.
+
+---
+
+## **Running on Google Colab**
+1. **Open the Notebook**:
+   - Upload the `.ipynb` file to Google Colab or copy-paste the code into a new notebook.
+
+2. **Install Dependencies**:
+   - Run the following command to install `ipywidgets`:
+     ```python
+     !pip install ipywidgets
+     ```
+
+3. **Run the Main Function**:
+   - Execute the `main()` function to start the interactive solver.
+
+4. **Input and Solve**:
+   - Input your Sudoku puzzle and click "Solve Sudoku" to see the solution.
+
+---
+
+## **Sample Input and Output**
+
+### **Input**
+```
+Original Sudoku Grid:
+5 3 . . 7 . . . .
+6 . . 1 9 5 . . .
+. 9 8 . . . . 6 .
+8 . . . 6 . . . 3
+4 . . 8 . 3 . . 1
+7 . . . 2 . . . 6
+. 6 . . . . 2 8 .
+. . . 4 1 9 . . 5
+. . . . 8 . . 7 9
+```
+
+### **Output**
+```
+Solved Sudoku Grid:
+5 3 4 6 7 8 9 1 2
+6 7 2 1 9 5 3 4 8
+1 9 8 3 4 2 5 6 7
+8 5 9 7 6 1 4 2 3
+4 2 6 8 5 3 7 9 1
+7 1 3 9 2 4 8 5 6
+9 6 1 5 3 7 2 8 4
+2 8 7 4 1 9 6 3 5
+3 4 5 2 8 6 1 7 9
+```
+
+---
+
+## **Contributing**
+We welcome contributions to improve this project! Here's how you can contribute:
+1. Fork the repository.
+2. Create a new branch for your feature/fix.
+3. Submit a pull request with a detailed description of your changes.
+
+---
+
+## **License**
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute the code as per the license terms.
+
+---
+
+## **Credits**
+- **Backtracking Algorithm**: Inspired by classic problem-solving techniques.
+- **Interactive Widgets**: Built using `ipywidgets` for Google Colab.
+- **Testing**: Tested with various Sudoku puzzles to ensure accuracy.
+
+
+---
+
+Enjoy solving Sudokus interactively! 🎉

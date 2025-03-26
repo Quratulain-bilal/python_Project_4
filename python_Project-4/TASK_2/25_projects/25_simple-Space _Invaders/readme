@@ -1,0 +1,41 @@
+# 🚀 Space Invaders - Pygame Edition
+
+A simple Python implementation of the classic Space Invaders game using Pygame.
+
+
+
+## Features
+- Player movement with arrow keys
+- Enemy wave generation
+- Shooting mechanics
+- Score tracking
+- Collision detection
+
+## Requirements
+- Python 3.6+
+- Pygame library
+
+## Quick Start
+```bash
+pip install pygame
+python space_invaders.py
+Controls
+Key	Action
+← →	Move spaceship
+SPACE	Fire laser
+ESC	Quit game
+How to Customize
+Edit player_size to change spaceship size
+
+Modify enemies list to adjust difficulty
+
+Change color values (RGB) for visual customization
+
+Troubleshooting
+If you get ModuleNotFoundError:
+
+bash
+Copy
+pip install pygame --upgrade
+
+

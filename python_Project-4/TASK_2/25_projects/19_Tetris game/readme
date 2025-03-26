@@ -1,0 +1,50 @@
+🎮 Tetris Game in Python 🟦🟥🟩🟨
+Welcome to the Tetris Game project! This is a simple implementation of the classic Tetris game using Python's pygame module. Perfect for beginners who want to level up their game development skills!
+
+🌟 Features
+✨ Key features of this project:
+
+Classic Gameplay : Move, rotate, and drop blocks to clear lines. ⬇️🔄
+Random Shapes : Includes all classic Tetris shapes (I, O, T, S, Z, L, J). 🔲
+Line Clearing : Clear full rows to increase your score. 🏆
+Simple Logic : Clean and beginner-friendly code. 💻
+🛠️ Installation
+Follow these steps to set up the game:
+
+Install Python : Ensure you have Python 3.x installed. Download it from here . 🐍
+Install Dependencies : Run the following command to install pygame:
+bash
+Copy
+1
+pip install pygame
+Save the code into a file named app.py. 📂
+▶️ Usage
+Ready to play? Follow these steps:
+
+Run the script:
+bash
+Copy
+1
+python app.py
+Use the arrow keys to control the blocks:
+Left Arrow : Move left. ⬅️
+Right Arrow : Move right. ➡️
+Down Arrow : Move down faster. ⬇️
+Up Arrow : Rotate the block. 🔃
+Clear lines to score points. 🏆
+🔧 How It Works
+⚙️ Quick overview of the game mechanics:
+
+Grid Setup : The board is represented as a 2D grid. 🧮
+Shapes : Randomly generated shapes fall from the top. 🔲
+Collision Detection : Prevents blocks from overlapping or going out of bounds. 🚫
+Line Clearing : Full rows are cleared, and the score increases. 🏆
+🚀 Extending the Project
+Here are some ideas to enhance the project:
+
+Add Levels : Increase the speed as the score increases. ⏳
+High Score Tracking : Save the highest score to a file. 📊
+Custom Themes : Change colors or add animations for a personalized look. 🎨
+Sound Effects : Add sound effects for block drops and line clears. 🔊
+📜 License
+This project is licensed under the MIT License . Feel free to use, modify, and distribute the code as per the license terms. 📄

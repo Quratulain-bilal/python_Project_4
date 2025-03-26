@@ -1,0 +1,20 @@
+# 💣 Python Minesweeper
+
+A minimal Minesweeper game in 25 lines of Python!
+
+## How to Play
+```bash
+python minesweeper.py
+Commands
+r 3 4 - Reveal cell at (3,4)
+
+f 2 5 - Flag cell at (2,5)
+
+Features
+10x10 grid with 15 mines
+
+Auto-expands empty areas
+
+Flagging system
+
+Loss detection

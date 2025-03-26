@@ -1,0 +1,38 @@
+# ❌⭕ Unbeatable Tic-Tac-Toe AI
+
+A Python implementation using MiniMax algorithm that never loses!
+
+## How to Play
+```bash
+python tictactoe.py
+Enter numbers 0-8 to make moves:
+
+Copy
+ 0 | 1 | 2
+-----------
+ 3 | 4 | 5
+-----------
+ 6 | 7 | 8
+Features
+Perfect AI using MiniMax
+
+Simple 30-line implementation
+
+Clear board display
+
+MiniMax Algorithm
+Simulates all possible moves
+
+Scores outcomes (+1 win, 0 draw, -1 lose)
+
+Chooses optimal move recursively
+
+Try to beat it! (Spoiler: You can't 😉)
+
+Copy
+
+### 🚀 Run It!
+1. Save as `tictactoe.py`
+2. Run:
+```bash
+python tictactoe.py

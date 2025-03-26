@@ -1,0 +1,39 @@
+# Discord Bot Template 🤖
+
+A Python Discord bot with secure token handling and basic commands.
+
+## 🚀 Quick Start
+1. **Get Token**:
+   - Create at [Discord Dev Portal](https://discord.com/developers/applications)
+   - Enable these intents:
+     - `Presence Intent`
+     - `Server Members Intent`
+
+2. **Configure**:
+   ```bash
+   pip install discord.py python-dotenv
+   echo "DISCORD_TOKEN=your_token_here" > .env
+Run:
+
+bash
+Copy
+python bot.py
+🔧 Features
+✅ Ping-pong command
+
+✅ Secure token storage
+
+✅ Auto-presence status
+
+✅ Error handling
+
+⚙️ Commands
+Command	Description
+!ping	Check latency
+!hello	Greet user
+🔒 Security
+Never commit .env file
+
+Regenerate token if exposed
+
+Note: For 100+ servers, verify your bot in Discord Dev Portal
